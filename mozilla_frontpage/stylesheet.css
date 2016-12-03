@@ -1,0 +1,216 @@
+.navbar {
+    background-color: rgb(215,60, 57);
+}
+
+.navbar-toggle {
+    background-color: rgb(191, 57, 55);
+    border: none;
+    height: 100%;
+}
+
+.icon-bar {
+    background-color: white !important;
+}
+
+.navbar-header a {
+    font-family: "Signika", serif;
+    font-weight: bold;
+    font-size: 3rem;
+    color: white !important;
+    text-decoration: none;
+}
+
+.navbar-collapse li a {
+    font-family: "Open Sans", sans-serif;;
+    font-weight: lighter;
+    font-size: 1.2rem;
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.navbar-collapse li a:hover {
+    text-decoration: underline !important;
+}
+
+.navbar .divider-vertical {
+    height: 30px;
+    margin: 10px 9px;
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #ffffff;
+}
+
+.padded {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.nav li:nth-child(6) a {
+    background-color: rgb(80, 174, 85) !important;
+    text-decoration: none !important;
+}
+
+#green:hover {
+    background-color: #56C25B !important;
+    text-decoration: none !important;
+}
+
+#tagline {
+    font-family: "Signika", serif;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 7rem;
+    color: rgb(43, 100, 167);
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+
+#message {
+    font-family: "Signika", serif;
+    font-weight: bolder;
+    font-size: 2rem;
+    color: rgb(43, 100, 167);
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+#welcome {
+    background-image: url("images/background1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 575px;
+    background-color: white;
+    margin-bottom: 0;
+}
+
+.value-prop {
+    text-align: center;
+    font-family: "Signika", "Open Sans", sans-serif;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#value-right {
+    background-color: rgb(19, 139, 136);
+    padding-top: 30px;
+}
+
+#value-left {
+    background-color: white;
+    padding-top: 30px;
+}
+
+#value-left h3 {
+    color: rgb(19, 139, 136);
+}
+
+#value-right h3 {
+    color: white;
+}
+
+.value-prop h3 {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.value-prop p {
+    font-size: 2rem;
+    padding: 20px;
+}
+
+.value-prop ul {
+    text-align: left;
+    margin: 30px;
+}
+
+.value-prop ul li {
+    list-style-type: none;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+.value-prop ul li a {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#value-left a {
+    color: rgb(19, 139, 136);
+}
+
+#value-right a {
+    color: white;
+}
+
+li a img {
+    margin-right: 10px;
+}
+
+#mountains {
+    background-image: url("images/background-composite.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    background-color: white;
+    margin-bottom: 0;
+    background-position:
+}
+
+#mountains {
+    text-align: center;
+    font-family: "Signika", "Open Sans", sans-serif;
+    color: white;
+}
+
+#mountains h3 {
+    font-size: 4rem;
+}
+
+#mountains p:nth-child(3) {
+    margin-top: 15px;
+}
+
+#mountains p:nth-child(4) {
+    margin-top: 40px;
+}
+
+#mountains p:nth-child(4) a {
+    margin-top: 40px;
+    font-size: 3rem;
+    color: white;
+}
+
+.bottom-triple-menu {
+    background-color: rgb(245, 245, 245);
+    padding: 0 40px;
+}
+
+.more-info {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: "Signika", "Open Sans", sans-serif;
+}
+
+.more-info div a {
+    font-size: 2rem;
+    color: black;
+}
+
+.more-info div a img {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.more-info p {
+    padding-top: 1rem;
+}
