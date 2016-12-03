@@ -1,3 +1,7 @@
+body * {
+    font-family: "Signika", "Open Sans", sans-serif !important;
+}
+
 .navbar {
     background-color: rgb(215,60, 57);
 }
@@ -13,7 +17,7 @@
 }
 
 .navbar-header a {
-    font-family: "Signika", serif;
+
     font-weight: bold;
     font-size: 3rem;
     color: white !important;
@@ -21,8 +25,7 @@
 }
 
 .navbar-collapse li a {
-    font-family: "Open Sans", sans-serif;;
-    font-weight: lighter;
+    font-weight: 100;
     font-size: 1.2rem;
     color: white !important;
     text-decoration: none !important;
@@ -59,7 +62,6 @@
 }
 
 #tagline {
-    font-family: "Signika", serif;
     font-weight: bolder;
     font-style: italic;
     font-size: 7rem;
@@ -71,7 +73,6 @@
 
 
 #message {
-    font-family: "Signika", serif;
     font-weight: bolder;
     font-size: 2rem;
     color: rgb(43, 100, 167);
@@ -92,7 +93,6 @@
 
 .value-prop {
     text-align: center;
-    font-family: "Signika", "Open Sans", sans-serif;
     text-align: center;
     margin-bottom: 0;
     margin-top: 0;
@@ -101,6 +101,7 @@
 #value-right {
     background-color: rgb(19, 139, 136);
     padding-top: 30px;
+    color: white;
 }
 
 #value-left {
@@ -110,10 +111,6 @@
 
 #value-left h3 {
     color: rgb(19, 139, 136);
-}
-
-#value-right h3 {
-    color: white;
 }
 
 .value-prop h3 {
@@ -167,7 +164,6 @@ li a img {
 
 #mountains {
     text-align: center;
-    font-family: "Signika", "Open Sans", sans-serif;
     color: white;
 }
 
@@ -198,7 +194,6 @@ li a img {
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
-    font-family: "Signika", "Open Sans", sans-serif;
 }
 
 .more-info div a {
@@ -213,4 +208,48 @@ li a img {
 
 .more-info p {
     padding-top: 1rem;
+}
+
+.newsletter {
+    color: white;
+    background: rgb(215,60, 57);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.newsletter div:nth-child(1) {
+    text-align: center;
+}
+
+.form-left {
+    margin-left: 2rem;
+}
+
+.form-left h3 {
+    font-size: 3rem;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.form-right {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+form a {
+    color: white;
+    text-decoration: underline;
+}
+
+.btn-primary {
+    background-color: rgb(215,60, 57);
+    font-size: 2rem;
+    border: 2px solid white;
+    border-radius: 4px;
+    margin: 1rem;
+}
+
+.btn-primary:hover {
+    background-color: #D94442;
+    border-color: white;
 }
