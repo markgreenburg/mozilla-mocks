@@ -19,14 +19,15 @@ body * {
 .navbar-header a {
 
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 4rem;
+    font-weight: 300;
     color: white !important;
     text-decoration: none;
 }
 
 .navbar-collapse li a {
-    font-weight: 100;
-    font-size: 1.2rem;
+    font-weight: 300;
+    font-size: 1.4rem;
     color: white !important;
     text-decoration: none !important;
 }
@@ -223,6 +224,8 @@ li a img {
 
 .form-left {
     margin-left: 2rem;
+    font-size: 2rem;
+    font-weight: lighter;
 }
 
 .form-left h3 {
@@ -231,6 +234,9 @@ li a img {
     font-style: italic;
 }
 
+.form-check-label {
+    font-weight: 300;
+}
 .form-right {
     margin-left: 2rem;
     margin-right: 2rem;
@@ -242,7 +248,7 @@ form a {
 }
 
 .btn-primary {
-    background-color: rgb(215,60, 57);
+    background-color: rgb(215, 60, 57);
     font-size: 2rem;
     border: 2px solid white;
     border-radius: 4px;
@@ -252,4 +258,79 @@ form a {
 .btn-primary:hover {
     background-color: #D94442;
     border-color: white;
+}
+
+.footer {
+    background-color: rgb(102, 102, 102);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+.copyright-notice p {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.copyright-notice h3 {
+    margin-top: 0px;
+    padding-left: 40px;
+    font-size: 3rem;
+}
+
+.copyright-notice h3 a {
+    color: white;
+}
+
+.privacy, .about-us {
+    padding-right: 40px;
+}
+
+.privacy li, .about-us li {
+    display: inline;
+    padding-right: 1rem;
+}
+
+
+.footer div div p a {
+    color: rgb(50,199, 217);
+}
+
+.footer div div ul li a {
+    color: rgb(50,199, 217);
+    font-weight: 300;
+}
+
+
+.social-links {
+    list-style-type: none;
+}
+
+.moz-social {
+    display: inline;
+    padding-left: 1rem;
+}
+
+.moz-social li {
+    display: inline;
+    padding-right: 1rem;
+}
+
+.ff-social {
+    display: inline;
+    padding-left: 1rem;
+}
+
+.ff-social li {
+    display: inline;
+    padding-right: 1rem;
+}
+
+.footer div .form-group {
+    width: 200px;
+    margin-left: 4rem;
+}
+
+.page-lang-select {
+    display: inline;
 }
