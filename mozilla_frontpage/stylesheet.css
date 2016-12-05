@@ -50,7 +50,7 @@ body * {
   margin-bottom: 0;
 }
 
-.nav li:nth-child(6) a {
+#green {
   background-color: rgb(80, 174, 85) !important;
   text-decoration: none !important;
 }
@@ -163,7 +163,7 @@ li a img {
 }
 
 #mountains h3 {
-font-size: 4rem;
+  font-size: 4rem;
 }
 
 #mountains p:nth-child(3) {
@@ -207,7 +207,7 @@ font-size: 4rem;
 
 .newsletter {
   color: white;
-  background: rgb(215,60, 57);
+  background: rgb(215, 60, 57);
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -251,7 +251,7 @@ form a {
 }
 
 .btn-primary:hover {
-  background-color: #D94442;
+  background-color: #d94442;
   border-color: white;
 }
 

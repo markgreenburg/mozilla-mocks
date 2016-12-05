@@ -10,6 +10,10 @@
     <!-- Load latest bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
 
+    <!-- Load Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
     <!--Pull in Mozilla-ish font for branding purposes-->
     <link href="https://fonts.googleapis.com/css?family=Signika:300,400,700;" rel="stylesheet">
 
@@ -24,30 +28,28 @@
         <nav class="navbar navbar-default navbar-static-top">
             <div class="container-fluid padded">
                 <div class="navbar-header">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="#">mozilla</a>
-                    </div>
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav-right" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">mozilla</a>
                 </div>
-                <div class="collapse navbar-collapse">
+                <div class="collapse navbar-collapse" id="main-nav-right">
                     <ul class="nav navbar-nav navbar-right">
                         <li>
                             <a class=".moz-nav" href="#">INTERNET HEALTH</a>
                         </li>
-                        <li class="divider-vertical"></li>
+                        <li class="divider-vertical hidden-xs"></li>
                         <li>
                             <a href="#">WEB INNOVATIONS</a>
                         </li>
-                        <li class="divider-vertical"></li>
+                        <li class="divider-vertical hidden-xs"></li>
                         <li>
                             <a href="#">DONATE</a>
                         </li>
-                        <li>
+                        <li class="hidden-xs">
                             <a id="green" href="#">DOWNLOAD FIREFOX</a>
                         </li>
                     </ul>
