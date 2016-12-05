@@ -1,336 +1,331 @@
 body * {
-    font-family: "Signika", "Open Sans", sans-serif !important;
+  font-family: "Signika", "Open Sans", sans-serif !important;
 }
 
 .navbar {
-    background-color: rgb(215,60, 57);
+  background-color: rgb(215, 60, 57);
 }
 
 .navbar-toggle {
-    background-color: rgb(191, 57, 55);
-    border: none;
-    height: 100%;
+  background-color: rgb(191, 57, 55);
+  border: none;
+  height: 100%;
 }
 
 .icon-bar {
-    background-color: white !important;
+  background-color: white !important;
 }
 
 .navbar-header a {
-
-    font-weight: bold;
-    font-size: 4rem;
-    font-weight: 300;
-    color: white !important;
-    text-decoration: none;
+  font-size: 4rem;
+  font-weight: 300;
+  color: white !important;
+  text-decoration: none;
 }
 
 .navbar-collapse li a {
-    font-weight: 300;
-    font-size: 1.4rem;
-    color: white !important;
-    text-decoration: none !important;
+  font-weight: 300;
+  font-size: 1.4rem;
+  color: white !important;
+  text-decoration: none !important;
 }
 
 .navbar-collapse li a:hover {
-    text-decoration: underline !important;
+  text-decoration: underline !important;
 }
 
 .navbar .divider-vertical {
-    height: 30px;
-    margin: 10px 9px;
-    border-left: 1px solid #f2f2f2;
-    border-right: 1px solid #ffffff;
+  height: 30px;
+  margin: 10px 9px;
+  border-left: 1px solid #f2f2f2;
+  border-right: 1px solid #fff;
 }
 
 .padded {
-    padding-left: 5%;
-    padding-right: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .navbar {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .nav li:nth-child(6) a {
-    background-color: rgb(80, 174, 85) !important;
-    text-decoration: none !important;
+  background-color: rgb(80, 174, 85) !important;
+  text-decoration: none !important;
 }
 
 #green:hover {
-    background-color: #56C25B !important;
-    text-decoration: none !important;
+  background-color: #56c25b !important;
+  text-decoration: none !important;
 }
 
 #tagline {
-    font-weight: bolder;
-    font-style: italic;
-    font-size: 7rem;
-    color: rgb(43, 100, 167);
-    text-align: center;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 7rem;
+  color: rgb(43, 100, 167);
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
-
 #message {
-    font-weight: bolder;
-    font-size: 2rem;
-    color: rgb(43, 100, 167);
-    text-align: center;
-    padding-top: 3rem;
-    padding-bottom: 1rem;
+  font-weight: bolder;
+  font-size: 2rem;
+  color: rgb(43, 100, 167);
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
 }
 
 #welcome {
-    background-image: url("images/background1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 575px;
-    background-color: white;
-    margin-bottom: 0;
+  background-image: url("images/background1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 575px;
+  background-color: white;
+  margin-bottom: 0;
 }
 
 .value-prop {
-    text-align: center;
-    text-align: center;
-    margin-bottom: 0;
-    margin-top: 0;
-}
-
-#value-right {
-    background-color: rgb(19, 139, 136);
-    padding-top: 30px;
-    color: white;
-}
-
-#value-left {
-    background-color: white;
-    padding-top: 30px;
-}
-
-#value-left h3 {
-    color: rgb(19, 139, 136);
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .value-prop h3 {
-    font-size: 3rem;
-    font-weight: bolder;
+  font-size: 3rem;
+  font-weight: bolder;
 }
 
 .value-prop p {
-    font-size: 2rem;
-    padding: 20px;
+  font-size: 2rem;
+  padding: 20px;
 }
 
 .value-prop ul {
-    text-align: left;
-    margin: 30px;
+  text-align: left;
+  margin: 30px 30px 0;
 }
 
 .value-prop ul li {
-    list-style-type: none;
-    white-space: nowrap;
-    padding: 10px;
+  list-style-type: none;
+  white-space: nowrap;
+  padding: 10px;
 }
 
 .value-prop ul li a {
-    font-weight: bold;
-    font-size: 2rem;
+  font-weight: bold;
+  font-size: 2rem;
 }
 
 #value-left a {
-    color: rgb(19, 139, 136);
+  color: rgb(19, 139, 136);
+}
+
+#value-left {
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#value-left h3 {
+  color: rgb(19, 139, 136);
 }
 
 #value-right a {
-    color: white;
+  color: white;
+}
+
+#value-right {
+  background-color: rgb(19, 139, 136);
+  padding-top: 30px;
+  color: white;
+  padding-bottom: 30px;
 }
 
 li a img {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 #mountains {
-    background-image: url("images/background-composite.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 800px;
-    background-color: white;
-    margin-bottom: 0;
-    background-position:
-}
-
-#mountains {
-    text-align: center;
-    color: white;
+  background-image: url("images/background-composite.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  background-color: white;
+  margin-bottom: 0;
+  text-align: center;
+  color: white;
 }
 
 #mountains h3 {
-    font-size: 4rem;
+font-size: 4rem;
 }
 
 #mountains p:nth-child(3) {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 #mountains p:nth-child(4) {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 #mountains p:nth-child(4) a {
-    margin-top: 40px;
-    font-size: 3rem;
-    color: white;
+  margin-top: 40px;
+  font-size: 3rem;
+  color: white;
 }
 
 .bottom-triple-menu {
-    background-color: rgb(245, 245, 245);
-    padding: 0 40px;
+  background-color: rgb(245, 245, 245);
+  padding: 0 40px;
 }
 
 .more-info {
-    text-align: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-.more-info div a {
-    font-size: 2rem;
-    color: black;
-}
-
-.more-info div a img {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .more-info p {
-    padding-top: 1rem;
+  padding-top: 1rem;
+}
+
+.more-info div a {
+  font-size: 2rem;
+  color: black;
+}
+
+.more-info div a img {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .newsletter {
-    color: white;
-    background: rgb(215,60, 57);
-    padding-top: 40px;
-    padding-bottom: 40px;
+  color: white;
+  background: rgb(215,60, 57);
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .newsletter div:nth-child(1) {
-    text-align: center;
+  text-align: center;
 }
 
 .form-left {
-    margin-left: 2rem;
-    font-size: 2rem;
-    font-weight: lighter;
+  margin-left: 2rem;
+  font-size: 2rem;
+  font-weight: lighter;
 }
 
 .form-left h3 {
-    font-size: 3rem;
-    font-weight: bolder;
-    font-style: italic;
+  font-size: 3rem;
+  font-weight: bolder;
+  font-style: italic;
 }
 
 .form-check-label {
-    font-weight: 300;
+  font-weight: 300;
 }
+
 .form-right {
-    margin-left: 2rem;
-    margin-right: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 form a {
-    color: white;
-    text-decoration: underline;
+  color: white;
+  text-decoration: underline;
 }
 
 .btn-primary {
-    background-color: rgb(215, 60, 57);
-    font-size: 2rem;
-    border: 2px solid white;
-    border-radius: 4px;
-    margin: 1rem;
+  background-color: rgb(215, 60, 57);
+  font-size: 2rem;
+  border: 2px solid white;
+  border-radius: 4px;
+  margin: 1rem;
 }
 
 .btn-primary:hover {
-    background-color: #D94442;
-    border-color: white;
+  background-color: #D94442;
+  border-color: white;
 }
 
 .footer {
-    background-color: rgb(102, 102, 102);
-    padding-top: 40px;
-    padding-bottom: 40px;
-    color: white;
+  background-color: rgb(102, 102, 102);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: white;
 }
 
 .copyright-notice p {
-    padding-left: 40px;
-    padding-right: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .copyright-notice h3 {
-    margin-top: 0px;
-    padding-left: 40px;
-    font-size: 3rem;
+  margin-top: 0;
+  padding-left: 40px;
+  font-size: 3rem;
 }
 
 .copyright-notice h3 a {
-    color: white;
+  color: white;
 }
 
-.privacy, .about-us {
-    padding-right: 40px;
+.privacy,
+.about-us {
+  padding-right: 40px;
 }
 
-.privacy li, .about-us li {
-    display: inline;
-    padding-right: 1rem;
+.privacy li,
+.about-us li {
+  display: inline;
+  padding-right: 1rem;
 }
-
 
 .footer div div p a {
-    color: rgb(50,199, 217);
+  color: rgb(50, 199, 217);
 }
 
 .footer div div ul li a {
-    color: rgb(50,199, 217);
-    font-weight: 300;
+  color: rgb(50, 199, 217);
+  font-weight: 300;
 }
 
-
 .social-links {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .moz-social {
-    display: inline;
-    padding-left: 1rem;
+  display: inline;
+  padding-left: 1rem;
 }
 
 .moz-social li {
-    display: inline;
-    padding-right: 1rem;
+  display: inline;
+  padding-right: 1rem;
 }
 
 .ff-social {
-    display: inline;
-    padding-left: 1rem;
+  display: inline;
+  padding-left: 1rem;
 }
 
 .ff-social li {
-    display: inline;
-    padding-right: 1rem;
+  display: inline;
+  padding-right: 1rem;
 }
 
 .footer div .form-group {
-    width: 200px;
-    margin-left: 4rem;
+  width: 200px;
+  margin-left: 4rem;
 }
 
 .page-lang-select {
-    display: inline;
+  display: inline;
 }
